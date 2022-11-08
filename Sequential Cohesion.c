@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <math.h>
+
+int add(int a, int b)
+{
+    return a+b;
+}
+
+void sub(int i, int j)
+{
+    return i - j;
+}
+
+int main()
+{
+    int a, b, c, d;
+    printf("Enter a : ");
+    scanf("%d",&a);
+    printf("Enter b : ");
+    scanf("%d",&b);
+    c = add(a, b);
+    printf("%d",c);
+
+}
